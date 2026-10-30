@@ -1,3 +1,4 @@
+# creation of a list in python but in JS is an array
 ages = [21,72, 43, 76, 32, 88 ,90, 52]
 names=["ian", "Jack", "Moha","Nicky"]
 
@@ -41,18 +42,20 @@ print(scores)
 scores.remove(78)
 print(scores)
 
-# tuple-immutable
+# tuple-immutable cannot change
 weekdays =("Mon" ,"Tue" ,"Thur", "Frid","Sat", "Sun")
 print(weekdays)
+# len means length
 print(len(weekdays))
 print(weekdays[0])
 
-# dictionary-
+# dictionary - key value pair
 person={"name": "Jason", "age":22,"weight":22, "height":1.88}
 print(person["name"])
 print(person["age"])
 print(person["weight"])
 
+# list
 people = [{"name":"Aria","age":29},
 {"name":"Morris","age":29},
 {"name":"Helen","age":56}
