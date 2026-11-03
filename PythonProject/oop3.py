@@ -1,38 +1,23 @@
-#
+class Circle:
+        #constructor
 
-class Client:
-    def __init__(self, names, kra_pin, dob, gender):
-        self.names = names
-        self.kra_pin = kra_pin
-        self.dob = dob
-        self.gender = gender
 
-        def print_details(self):
-            print(self.names)
-            print(self.kra_pin)
+        def __init__(self,r):
+                     self.radius=r
+        def area(self):
+                 return 22/7 *self.radius**2
 
-            class BankAccount:
-                def __init__(self, owner, acc_no, balance):
-                    self.owner = owner
-                    self.acc_no = acc_no
-                    self.balance = balance
+def perimeter(self):
+                return 22/7 *self.radius* 2
 
-                    def deposit(self, amount):
+def print_details(self):
+    print("Radius is",self.radius)
+    print(self.area())
 
-                        self.balance += abs(amount)
+    print(self.perimeter())
 
-                        def withdraw(self, amount):
+#     branches-copy of your project
 
-                        if amount > self.balance:
-                            print("Not enough money")
-                        else:
-                            self.balance -= abs(amount)
 
-    def print_details(self):
-        print(self.owner)
-        print(self.acc_no)
-        print(self.balance)
-        print("----------------------")
 
-jane = Client(names: 'Jane Doue', kra_pin: 'A001', dob:'1999-01-16', gender: 'F')
-yusuf =Client(names: 'Yusuf Owambo', kra_pin:'A002', dob: '')
+c1 = Circle(10)

@@ -12,7 +12,7 @@ while num<=10:
 
         scores=[78, 89, 80, 67,56,65,89]
         for s in scores:
-                if(s>=50 and s<=70) or s>90:
+                if(50 <= s <= 70) or s>90:
                         print(s)
                         # just paste is a site use to compress saa  into a link
                         # justpase.it/b6tup
@@ -23,5 +23,5 @@ while num<=10:
                                 name = person["name"]
                                 age = person["age"]
                                 country = person["country"]
-                                if country == "Italy"
-                                print(f"Name is {name} Age is {age} Country is {country}")
+                                if country == "Italy" :
+                                 print(f"Name is {name} Age is {age} Country is {country}")
