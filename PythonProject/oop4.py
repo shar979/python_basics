@@ -16,6 +16,8 @@ class PermanentEmployee(Employee):
         super().__init__(name, email, department, salary)
         self.cover = cover
         self.increment = increment
+    def show_details(self,):
+        print(self.name,self.email, self.department,self.salary,self.cover,self.increment)
 
 class ContractEmployee(Employee):
     def __init__(self, name, email, department, salary, tenure):
