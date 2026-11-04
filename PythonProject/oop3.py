@@ -21,3 +21,8 @@ def print_details(self):
 
 
 c1 = Circle(10)
+c2 = Circle(24)
+c3 = Circle(36)
+
+print(c1.area())
+c1.print_details
