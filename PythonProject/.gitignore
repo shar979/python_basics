@@ -1,5 +1,11 @@
 
 .idea/
+.webm
+.venv/
+.txt
+.env
+
+!requirements.txt
 # Default ignored files
 /shelf/
 /workspace.xml
